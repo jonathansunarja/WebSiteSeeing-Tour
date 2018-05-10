@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Quiz | WebSiteSeeing Tour</title>
+			<meta charset="utf-8">
+
+			<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<script type="text/javascript" src="js/bootstrap.js"></script>
+			<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+			<script type="text/javascript" src="js/additional.js"></script>
+
+			<script type="text/javascript">
+			   $( document ).ready(function() {
+		            var totalScore=0;
+		            $('#SubmitBtn').click(function(){
+		                if($('#inputAnswer1text').val()=='hypertext markup language'){
+		                totalScore++;
+		                } 
+
+		                rad1=$('input[name=question2]:checked').val();
+		                if(rad1=='true'){
+		                    totalScore++;
+		                }
+
+		                rad1=$('input[name=question3]:checked').val();
+		                if(rad1=='true'){
+		                    totalScore++;
+		                }
+
+		                rad1=$('input[name=question4]:checked').val();
+		                if(rad1=='true'){
+		                    totalScore++;
+		                }
+
+		                if($('#inputAnswer5text').val()=='1991'){
+		                	totalScore++;
+		                }
+
+						if($('#inputAnswer6text').val()=='cascading style sheet'){
+		                	totalScore++;
+		                } 
+
+		                rad1=$('input[name=qustion7]:checked').val();
+		                if(rad1=='true'){
+		                    totalScore++;
+		                }
+
+		                rad1=$('input[name=question8]:checked').val();
+		                if(rad1=='true'){
+		                    totalScore++;
+		                }
+
+		                if($('#inputAnswer9text').val()=='class'){
+		                	totalScore++;
+		                }
+
+		                rad1=$('input[name=question10]:checked').val();
+		                if(rad1=='true'){
+		                    totalScore++;
+		                }
+
+		                if($('#inputAnswer11text').val()=='brendan eich'){
+		                	totalScore++;
+		                } 
+
+		                rad1=$('input[name=qustion12]:checked').val();
+		                if(rad1=='true'){
+		                    totalScore++;
+		                }
+
+		                rad1=$('input[name=question13]:checked').val();
+		                if(rad1=='true'){
+		                    totalScore++;
+		                }
+
+		                rad1=$('input[name=question14]:checked').val();
+		                if(rad1=='true'){
+		                    totalScore++;
+		                }
+
+		                if($('#inputAnswer9text').val()=='js'){
+		                	totalScore++;
+		                }
+
+		                alert('You have completed an attempt. Your score is: '+totalScore+' out of 15');
+		                
+		            });
+		        });
+			</script>
+		</head>
+		
+		<body id="quiz-page" class="parallax">
+
+			<!--Navigation bar-->
+			<nav class="navbar navbar-fixed-top">
+	      		<div class="container">
+	      			<a href="homepage.html" class="btn btn-lg activea">Home</a>
+	        		<a href="html-page.html" class="btn btn-lg activea" role="button">HTML</a>
+	        		<a href="css-page.html" class="btn btn-lg activea" role="button">CSS</a>
+	        		<a href="js-page.html" class="btn btn-lg activea" role="button">JavaScript</a>
+	        		<a href="quiz-page.html" class="btn btn-lg navbar-menu-active" role="button">Quiz</a>
+	      		</div>
+	    	</nav>
+
+	    	
+	    	<div id="welcome">
+				<h1 id="main-title">THE COLOSSEUM</h1>
+				<p id="greetings">Are you up for the test?</p>
+				<a href="#main-quiz-content" id="enter-button" class="btn btn-lg activea" role="button">&#x270A;</a>
+			</div>
+
+			<div id="main-quiz-content">
+            	<h1>Quiz</h1>
+                	<p>Read the instructions below before attempting the quiz:</p>
+                		<ul>
+                			<li>Answer <strong>ONLY</strong> with <em>numbers</em> (0-9) and <em>small alphabets</em> (a-z) unless asked to answer in another way</li>
+                			<li>Some numbers might ask you to include more than one answer</li>
+                		</ul>
+                    <form>
+                    	<ol>
+                    		<!--HTML questions-->
+                        	<li>What does HTML stand for?</li><input type="text" name="inputAnswer1" id="inputAnswer1text">
+                        	<li>Which one of these components is the main use of HTML?</li>
+                        		<input type="radio" name="question2" class="rd1" value="true">Content<br/>
+                        		<input type="radio" name="question2" class="rd2" value="false">Presentation<br/>
+                        		<input type="radio" name="question2" class="rd3" value="false">Behaviour
+                        	<li>What form the basic structure of an HTML document?</li>
+                            	<input type="checkbox" name="question3" class="class1" value="true">Declarative header section<br/>
+                            	<input type="checkbox" name="question3" class="class2" value="false">CSS style sheet declaration<br/>
+                            	<input type="checkbox" name="question3" class="class3" value="true">A line containing HTML version information<br/>
+                            	<input type="checkbox" name="question3" class="class4" value="true">A body tag containing the document's actual content<br/>
+                        	<li>Where are attributes declared on an HTML document?</li>
+                            	<input type="radio" name="question4" class="id1" value="true">Opening tag<br/>
+                            	<input type="radio" name="question4" class="id2" value="false">Closing tag<br/>
+                        	<li>In which year was HTML Tags first publicised?</li><input type="text" name="inputAnswer5" id="inputAnswer5text">
+
+                        	<!--CSS questions-->
+                        	<li>What does CSS stand for?</li><input type="text" name="inputAnswer6" id="inputAnswer6text">
+                        	<li>Which one of these iss a demonstration of CSS-based design?</li>
+                        		<input type="radio" name="question7" class="rd1" value="false">Netscape Navigator<br/>
+                        		<input type="radio" name="question7" class="rd2" value="true">Zen Garden<br/>
+                        		<input type="radio" name="question7" class="rd3" value="false">W3C CSS1 Recommendation
+                        	<li>Who contributed heavily in the development of CSS?</li>
+                            	<input type="checkbox" name="question8" class="class1" value="false">Marc Andreessen<br/>
+                            	<input type="checkbox" name="question8" class="class2" value="true">H&#229;kon Wium Lie<br/>
+                            	<input type="checkbox" name="question8" class="class3" value="false">Brendan Eich<br/>
+                            	<input type="checkbox" name="question8" class="class4" value="true">Bert Bos<br/>
+                            <li>Which selector type has the specificity value of 10?</li><input type="text" name="inputAnswer9" id="inputAnswer9text">
+                        	<li>Choose the best option</li>
+                            	<input type="radio" name="question10" class="id1" value="false">CSS style sheet can be set out internally<br/>
+                            	<input type="radio" name="question10" class="id2" value="false">CSS style sheet can be set out externally<br/>
+                            	<input type="radio" name="question10" class="id3" value="true">Both are correct<br/>
+                        	
+                        	<!--JavaScript questions-->
+                        	<li>Who wrote JavaScript?</li><input type="text" name="inputAnswer11" id="inputAnswer11text">
+                        	<li>Which one of these components is the main use of JavaScript?</li>
+                        		<input type="radio" name="question12" class="rd1" value="false">Content<br/>
+                        		<input type="radio" name="question12" class="rd2" value="false">Presentation<br/>
+                        		<input type="radio" name="question12" class="rd3" value="true">Behaviour
+                        	<li>Which behaviour scripting and interactivity does JavaScript belong to?</li>
+                            	<input type="radio" name="question13" class="id1" value="true">Client-side<br/>
+                            	<input type="radio" name="question13" class="id2" value="false">Server-side<br/>
+                        	<li>Which tags are used to add a JavaScript into an HTML document?</li>
+                            	<input type="radio" name="question14" class="id1" value="false"><em>&lt;javascript&gt;</em><br/>
+                            	<input type="radio" name="question14" class="id2" value="true"><em>&lt;script&gt;</em><br/>
+                            	<input type="radio" name="question14" class="id3" value="false"><em>&lt;src&gt;</em><br/>
+                        	<li>What is the file extension for a JavaScript file?</li><input type="text" name="inputAnswer15" id="inputAnswer15text">
+                        
+                        <br/><input type="submit" value="Submit" id="SubmitBtn" onclick="checkAnswers()" />
+                    </form>
+            </div>
+	        
+		</body>
+	</html>
