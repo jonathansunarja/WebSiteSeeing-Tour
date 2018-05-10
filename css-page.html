@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>CSS | WebSiteSeeing Tour</title>
+			<meta charset="utf-8">
+
+			<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<script type="text/javascript" src="js/bootstrap.js"></script>
+			<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+			<script type="text/javascript" src="js/additional.js"></script>
+		</head>
+		
+		<body id="other-pages" class="parallax">
+
+			<!--Navigation bar-->
+			<nav class="navbar navbar-fixed-top">
+	      		<div class="container">
+	      			<a href="homepage.html" class="btn btn-lg activea">Home</a>
+	        		<a href="html-page.html" class="btn btn-lg activea" role="button">HTML</a>
+	        		<a href="css-page.html" class="btn btn-lg navbar-menu-active" role="button">CSS</a>
+	        		<a href="js-page.html" class="btn btn-lg activea" role="button">JavaScript</a>
+	        		<a href="quiz-page.html" class="btn btn-lg activea" role="button">Quiz</a>
+	      		</div>
+	    	</nav>
+
+	    	<!--Main page content-->
+	    	<div id="main-page-content">
+		    	<img src="pictures/css-bus.png" alt="CSS tour">
+		    	<h1>CSS tour</h1>
+		    	<p>Thank you for choosing <strong>CSS</strong> tour! There are 3 main destinations for this tour.<br/>You are the boss, so pick which every you like first!</p>
+
+		    	<!--Boxes representing places to visit-->
+		    	<div class="row">
+	        		<div class="col-md-4 columnborder">
+	        			<div id="museum" class="places panel columnborder">
+		         			<h2>&raquo; THE MUSEUM</h2>
+		          			<p>A RECOMMENDED START: Learn about a brief history and evolution of CSS from time to time.</p>
+		          			<p><a class="btn btn-default" href="#museum-page" role="button">Take me there! &raquo;</a></p>
+	        			</div>
+	        		</div>
+	        		<div class="col-md-4 columnborder">
+	        			<div id="factory" class="places panel columnborder">
+		         			<h2>&raquo; THE FACTORY</h2>
+		          			<p>Here we will have a look on how CSS is used in website development and other useful code samples and resources.</p>
+		          			<p><a class="btn btn-default" href="#factory-page" role="button">Take me there! &raquo;</a></p>
+		         		</div>
+	       			</div>
+	       			<div class="col-md-4 columnborder">
+	        			<div id="colosseum" class="places panel columnborder">
+		         			<h2>&raquo; THE COLOSSEUM</h2>
+		          			<p>If you feel you have understood enough and you are up for challenges, take a short quiz to test yourself.</p>
+		          			<p><a class="btn btn-default" href="quiz-page.html" role="button">Take me there! &raquo;</a></p>
+		         		</div>
+	       			</div>
+	      		</div>
+
+	      		<div id="museum-page">
+	      			<hr/><h1>THE MUSEUM</h1>
+	      				<h2>What is CSS?</h2>
+	      					<p>A web document is typically built by a triad of components:</p>
+	      					<ul>
+	      							<li><em>content</em></li>
+	      							<li><em>presentation</em>,</li>
+	      							<li>and <em>behaviour</em>.</li>
+	  						</ul>
+
+	  						<p>CSS or <strong>Cascading Style Sheets</strong> is a style sheet language. It is widely used to describe the styling and presentation of a markup language document. Although it is mostly know to be used with an <a href="html-page.html">HTML</a> document, CSS can also be used to set the styling of any XML document. Therefore, with CSS, design and layout can be changed quickly and easily without changing markup in a document. We will discuss more about its usage in <a href="#factory-page">the factory</a>.</p>
+
+	  					<h2>Brief history of CSS</h2>
+	  						<p>Style sheets have existed for some time before CSS was first introduced. In the 1980s, there were the early developments of Standard Generalised Markup Language (SGML). However, early style sheet languages like FOSI and DSSSL were not deemed suitable for the web. This was due to the fact that they did not come from different sources in the web.</p>
+
+	  						<p>By the time Hypertext Markup Language (HTML) grew, more stylistic capabilities were introduced to aid designers in having more control over presentation of a website. The major downside to this was the written HTML started to get too complex with more design implementation. Even Robert Cailliau, who was heavily instrumental in the birth of HTML, called for the separation of content and presentation through separate style sheets.</p>
+
+	  						<div class="photo-frame"><img src="pictures/wium-lie.jpg" alt="H&#229;kon Wium Lie"><br/>H&#229;kon Wium Lie</div>
+	  						<p>Proposal for CSS rose in 1994, around 3 years after <a href="html-page.html#museum-page">HTML was introduced</a> by Tim Berners-Lee. The man behind this was H&#229;kon Wium Lie, who was working with Berners-Lee and Cailliau at CERN around that time. He collaborated with a fellow W3C employee, Bert Bos, to develop CSS. Bos was so influential that he, himself, is widely known as co-author of CSS1 and co-creator of CSS. By 1996, numerous style sheet languages were already proposed and people were drawn into public discussions about uses of style sheet languages for the web. This series of circumstances lead to the World Wide Web Consortium releasing the first W3C CSS Recommendation (CSS1) in December 1996.</p>
+
+	  						<p>Soon after taken into adoption by W3C, CSS was developed together with HTML and the Document Object Model (DOM). Lie went on to integrate CSS into the Arena web browser. Meanwhile, Bos ended up being the chairman of the CSS Working Group years after that. CSS, though, endured turbulent first few years as no web browser could achieve the near-full implementation of the specification. It was only until 2000 that CSS started to kick off.</p>
+
+	  					<h2>Timeline of CSS versions</h2>
+	  						<table class="table">
+    							<thead>
+      								<tr>
+        								<th>Year</th>
+        								<th>Progress</th>
+      								</tr>
+    							</thead>
+    							<tbody>
+      								<tr>
+        								<td>1994</td>
+        								<td>H&#229;kon Wium Lie sent an email to W3C about proposal of CSS</td>
+								    </tr>
+								    <tr>
+								    	<td>1996</td>
+								    	<td>The first official CSS specification, <strong>CSS 1</strong> Recommendation was published that supported styling to text, tables, margin, border, etc.</td>
+							    	</tr>
+								    <tr>
+								    	<td>1997</td>
+								    	<td>First Public Working Draft of CSS Level 2 was released</td>
+								    </tr>
+								    <tr>
+								    	<td>1998</td>
+								    	<td>Announcement was made as of an email from Bos about the first beta of CSS Validator</td>
+								    </tr>
+								    <tr>
+								    	<td></td>
+								    	<td>W3C officially published <strong>CSS 2</strong> Recommendation</td>
+								    </tr>
+								    <tr>
+								    	<td>1999</td>
+								    	<td>Revisions on CSS Level 1 Recommendation were made</td>
+								    </tr>
+								    <tr>
+								    	<td></td>
+								    	<td>First 3 <strong>CSS3</strong> drafts: Color Profiles, Multi-column layout, and Paged Media were out</td>
+								    </tr>
+								    <tr>
+								    	<td>2003</td>
+								    	<td>A demonstration of CSS-based design, CSS Zen Garden, was launched by Dave Shea</td>
+								    </tr>
+								    <tr>
+								    	<td>2016</td>
+								    	<td>Initial draft of 2nd revision of CSS Level 2 was made on April 12</td>
+								    </tr>
+								</tbody>
+							</table>
+	      		</div>
+
+	      		<div id="factory-page">
+	      			<hr/><h1>THE FACTORY</h1>
+	      				<h2>The separation of concerns</h2>
+	      					<p>As stated at <a href="#museum-page">the museum</a>, CSS is responsible for describing the presentation of a document written in a markup language. In full below is how a typical web document is built:</p>
+
+	      					<ul>
+	      						<li>Content structure and semantics: <a href="html-page.html">HTML</a></li>
+	      						<li>Presentation style and layout: <strong>CSS</strong></li>
+	      						<li>Behaviour scripting and interactivity:
+	      							<ul>
+	      								<li><a href="js-page.html">JavaScript</a> (client-side)</li>
+	      								<li>PHP, Perl, Java, Ruby, etc. (server-side)</li>
+	      							</ul>
+	      						</li>
+	      					</ul>
+
+	      					<p>Why is the separation made in the first place? Firstly, this is a good practice to ease developers in maintaining their website, given they can classify easily where an issue relies: content, presentation, or behaviour. Also, this consistency is a huge benefit for a team of developers or when someone has to look into someone else's script. This obviously improves accessibility and control. In theory, separation of content tells us a lot about a page as well. We would be able to differ between a heading and large font, strong emphasis and bold, or a new paragraph and a line break. Generally, the separation of concerns works as how lines of code are broken down into methods that perform different functions. It gives so much ease when elements of a web document are separated into building blocks.</p>
+
+	      				<h2>CSS: A simple view</h2>
+	      					<p>CSS allows visual presentation to be applied to structured mark-up. CSS allows reflowing/positioning of content. This is done through pattern matching syntax, which identifies where to apply style. Value syntax will specify what to apply to a given property. Not only those, external images, animation and transformations can also be applied by using CSS.</p>
+
+	      					<p>Why is styling that important? Simple enough, plain web pages are dull. And when it comes to websites, user experience (meaning aesthetics enhance included) is very crucial. Styling is also a good platform for creative expression. However, overstyling a page would also be a downside. Hence, there needs to be a balance to avoid both monotonous and &quot;noisy&quot; design</p>
+
+	      				<h2>Style sheet</h2>
+	      					<h3>Basic syntax</h3>	
+	      						<p>Style sheets specify what are called as <em>formatting rules</em>. Rules consist of <em>selectors</em> and <em>declarations</em>. Given an example below:</p>CSS style sheet:<br/><div class="pic-container"><img src="pictures/style-sheet-example.png" alt="style-sheet-example"/></div><br/>HTML file:<br/><div class="pic-container"><img src="pictures/html-style-sheet-example.png" alt="HTML file"/></div>
+
+	      						<p>Here, we can see the <em>selector</em>, <em>p</em>, which identifies an HTML pattern, <em>&lt;p&gt;</em>. Meanwhile the <em>declarations</em> are for <em>background-color</em> and <em>color</em> which modify the paragraph as shown in the screenshot below. Distinct declarations are separated by a semi-colon (;).<br/></p><div class="pic-container"><img src="pictures/css-result.png" alt="CSS design result"/></div>
+
+	      					<h3>Internal style sheet</h3>
+	      						<p>Internal style sheet rules are set out inside the header of an HTML document using the <em>&lt;style&gt;</em> tags.</p><br/><div class="pic-container"><img src="pictures/internal-style-sheet.png" alt="Internal style sheet"/></div>
+
+	      					<h3>External style sheet</h3>
+	      						<p>External style sheets are stored in separate files. These style sheets will be linked to the markup document in the header section, by referencing to their file directories. Multiple style sheets can be applied to a single page</p><br/><div class="pic-container"><img src="pictures/external-style-sheet.png" alt="External style sheet"/></div>
+
+	      				<h2>CSS selectors</h2>
+	      					<p>There are three basic selector types that define patterns to find in the markup:</p>
+	      					<table class="table">
+    							<thead>
+      								<tr>
+        								<th>Type</th>
+        								<th>Definition</th>
+        								<th>CSS selector pattern</th>
+        								<th>Specificity value</th>
+      								</tr>
+    							</thead>
+    							<tbody>
+      								<tr>
+        								<td>Tag</td>
+        								<td>Match all instances of the tag, e.g. every <em>&lt;p&gt;...&lt;/p&gt;</em></td>
+        								<td>The tag itself without '&lt;' and '&gt;'</td>
+        								<td>1</td>
+								    </tr>
+								    <tr>
+								    	<td>Class</td>
+								    	<td>Match tags containing this class attribute</td>
+								    	<td>A dot (.)</td>
+								    	<td>10</td>
+							    	</tr>
+								    <tr>
+								    	<td>ID</td>
+								    	<td>Match the unique tag containing this id attribute</td>
+								    	<td>Hash symbol (#)</td>
+								    	<td>100</td>
+								    </tr>
+								</tbody>
+							</table>
+							<p>These selectors can be combined together in forming rules and the final appearance is composite of all appropriate rules. In some cases, there might be conflicting property values, they are solved by these rules:</p>
+							<ol>
+								<li>Source: user-specified styles are more specific</li>
+								<li>Specificity: relative weighing of selector priority. This is measured by adding up the total specificity value of each rules. The higher the value, the more specific the rule is. For example: a tag inside an ID (total specificity value = 1 + 100 = 101) is more specific than a tag inside a class (total specificity value = 1 + 10 = 11)</li>
+								<li>Order declared: if specificity value are the same then &quot;last one wins&quot; (means inline styles are always more specific)</li>
+							</ol>
+
+						<h2>CSS units</h2>
+							<p>CSS supports many types of measurement unit:</p>
+							<ul>
+								<li><em>Absolute</em> units calculated independently of other page content and/or browser defaults
+									<ul>
+										<li>Useful for precise layout</li>
+										<li>Include pixels (px), points (pt), milimetres (mm)</li>
+									</ul>
+								</li>
+								<li><em>Relative</em> units calculated proportionally against other page content or a browser default
+									<ul>
+										<li>e.g. currently available width, default text size, etc.</li>
+										<li>Include percentages (%), Ems (em), Exes (ex)</li>
+										<li>Also special relative units for text (e.g. small, large, x-large)</li>
+									</ul>
+								</li>
+							</ul>
+							<p>A good design uses a combination of both.</p>
+
+						<h2>CSS colours</h2>
+							<p>CSS allows rich control over colour. Any colour can be specified using RGB or Hexadecimal codes. Actually, there are only 17 valid names in CSS2 (e.g. red, magenta, blue, yellow).</p>
+
+						<h2>Pseudo elements and classes</h2>
+							<p>Pseudo elements refer to selectors for special parts of some elements. For example: <em>p.opening:first-letter</em> allows us to control the first letter in a paragraph with class name <em>opening</em>. Meanwhile, pseudo classes refer to selectors for special status of some elements. For example: <em>a:hover</em> allows us to specify rules on links upon which the cursor hovers.</p>
+
+						<h2>References and look-up tables</h2>
+						<ul>
+							<li><a href="http://caniuse.com">Can I use ...?</a></li>
+							<li><a href="http://www.css3files.com">CSS3 files</a></li>
+							<li><a href="http://html5please.com">HTML5 Please</a></li>
+						</ul>
+	      		</div>
+	      	</div>
+		</body>
+	</html>
