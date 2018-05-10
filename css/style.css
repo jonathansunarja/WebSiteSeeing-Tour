@@ -1,0 +1,175 @@
+/*To create parallax scrolling effect and set minimum width of all pages*/
+.parallax {
+	height: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-width: 790px;
+}
+
+/*Set the font type for the texts*/
+h1,h2,h3,p,a,li,blockquote,input{
+	font-family: 'TW Cen MT';
+}
+ /*Set the font style for quotes to be italic*/
+blockquote{
+	font-style: italic;
+}
+
+/*Set the color of an active page link on the navigation bar*/
+.navbar-menu-active{
+	color: white!important;
+}
+
+/*HOMEPAGE*/
+	/*Set the background for homepage*/
+	#homepage{
+		background-image: url("../pictures/home-background.jpg");
+	}
+
+	/*Style the welcome message area on the homepage*/
+	#welcome{
+		padding-top: 80px;
+		width: 68%;
+		margin: auto;
+	}
+
+	/*Style the "Welcome to Web City!" text*/
+	#main-title{
+		font-weight: bold;
+		font-size: 60pt;
+		text-transform: uppercase;
+		color: white;
+		text-align: center;
+	}
+
+	/*Style the text below "Welcome to Web City!"*/
+	#greetings{
+		font-size: 20pt;
+		text-align: center;
+	}
+
+	/*Style the down arrow on the homepage*/
+	#down-arrow{
+		font-size: 55pt;
+		position: relative;
+		margin: 0% 45%;
+	}
+
+	/*Set a distance between the main homepage to the tour packages selection area*/
+	#tour-packages{
+		margin-top: 400px;
+	}
+
+	/*Style the heading on tour packages selection*/
+	#tour-packages h1{
+		color: #000080;
+		text-align: center;
+	}
+
+	/*Set a distance between the text and the tour buses*/
+	.tour-bus{
+		display: block;
+		margin: auto;
+		margin-top: 200px;
+	}
+
+/*HTML, CSS, AND JAVASCRIPT PAGE*/
+	/*Set the background page for all 3 pages*/
+	#other-pages{
+		background-image: url("../pictures/other-background.jpg");
+	}
+
+	/*Handles the position for the content of all 3 pages*/
+	#main-page-content{
+		padding: 125px 100px;
+		text-align: center;
+		font-size: 13pt;
+	}
+
+	/*Control the 3 panels showing places to visit*/
+	.places{
+		border-radius: 25px;
+		padding: 10px;
+	}
+
+	/*Set the background for the Museum panel*/
+	#museum{
+		background-image: url("../pictures/museum.png");
+		background-color: #b35900;
+	}
+
+	/*Set the background for the Factory panel*/
+	#factory{
+		background-image: url("../pictures/factory.png");
+		background-color: #8c8c8c;
+	}
+
+	/*Set the background for the Colosseum panel*/
+	#colosseum{
+		background-image: url("../pictures/colosseum.png");
+		background-color: #b3b300;
+	}
+
+	/*Style all "The Museum" parts*/
+	#museum-page{
+		border-radius: 2%;
+		text-align: justify;
+		color: #d9d9d9;
+		padding: 50px 30px;
+		background-image: url("../pictures/wood-background.jpg"); 
+	}
+
+	/*Style all "The Factory" parts*/
+	#factory-page{
+		border-radius: 2%;
+		text-align: justify;
+		color: #d9d9d9;
+		padding: 50px 30px;
+		background-image: url("../pictures/brick-background.jpg"); 
+	}
+
+	/*Create frames for person profile photos*/
+	.photo-frame{
+		overflow: auto;
+		border: 5px solid #d2d2d2;
+		justify-content: center;
+		float: right;
+		margin-left: 15px;
+		position: relative;
+		text-align: center;
+		font-size: 10pt;
+	}
+
+	/*Create containers for screenshots*/
+	.pic-container{
+		overflow: auto;
+		border: 2px solid #331a00;
+		border-radius: 10px;
+		justify-content: center;
+		width: auto;
+		display: inline-block;
+	}
+
+/*QUIZ/COLOSSEUM PAGE*/
+	/*Set the background for the quiz main page*/
+	#quiz-page{
+		background-image: url("../pictures/quiz-background.jpg");
+	}
+	
+	/*Style the knuckle button on Colosseum page*/
+	#enter-button{
+		font-size: 65pt;
+		position: relative;
+		margin: 0% 43%;
+		padding-bottom: 300px;
+	}
+
+	/*Position the content on the quiz page*/
+	#main-quiz-content{
+		padding: 50px 100px;
+		text-align: justify;
+		background-color: white;
+		font-size: 13pt;
+	}
