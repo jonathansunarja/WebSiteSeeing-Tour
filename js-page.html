@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>JavaScript | WebSiteSeeing Tour</title>
+			<meta charset="utf-8">
+
+			<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<script type="text/javascript" src="js/bootstrap.js"></script>
+			<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+			<script type="text/javascript" src="js/additional.js"></script>
+		</head>
+		
+		<body id="other-pages" class="parallax">
+
+			<!--Navigation bar-->
+			<nav class="navbar navbar-fixed-top">
+	      		<div class="container">
+	      			<a href="homepage.html" class="btn btn-lg activea">Home</a>
+	        		<a href="html-page.html" class="btn btn-lg activea" role="button">HTML</a>
+	        		<a href="css-page.html" class="btn btn-lg activea" role="button">CSS</a>
+	        		<a href="js-page.html" class="btn btn-lg navbar-menu-active" role="button">JavaScript</a>
+	        		<a href="quiz-page.html" class="btn btn-lg activea" role="button">Quiz</a>
+	      		</div>
+	    	</nav>
+
+	    	<!--Main page content-->
+	    	<div id="main-page-content">
+		    	<img src="pictures/js-bus.png" alt="JavaScript tour">
+		    	<h1>JavaScript tour</h1>
+		    	<p>Thank you for choosing <strong>JavaScript</strong> tour! There are 3 main destinations for this tour.<br/>You are the boss, so pick which every you like first!</p>
+
+		    	<!--Boxes representing places to visit-->
+		    	<div class="row">
+	        		<div class="col-md-4 columnborder">
+	        			<div id="museum" class="places panel columnborder">
+		         			<h2>&raquo; THE MUSEUM</h2>
+		          			<p>A RECOMMENDED START: Learn about a brief history and evolution of JavaScript from time to time.</p>
+		          			<p><a class="btn btn-default" href="#museum-page" role="button">Take me there! &raquo;</a></p>
+	        			</div>
+	        		</div>
+	        		<div class="col-md-4 columnborder">
+	        			<div id="factory" class="places panel columnborder">
+		         			<h2>&raquo; THE FACTORY</h2>
+		          			<p>Here we will have a look on how JavaScript is used in website development and other useful code samples and resources.</p>
+		          			<p><a class="btn btn-default" href="#factory-page" role="button">Take me there! &raquo;</a></p>
+		         		</div>
+	       			</div>
+	       			<div class="col-md-4 columnborder">
+	        			<div id="colosseum" class="places panel columnborder">
+		         			<h2>&raquo; THE COLOSSEUM</h2>
+		          			<p>If you feel you have understood enough and you are up for challenges, take a short quiz to test yourself.</p>
+		          			<p><a class="btn btn-default" href="quiz-page.html" role="button">Take me there! &raquo;</a></p>
+		         		</div>
+	       			</div>
+	      		</div>
+
+	      		<div id="museum-page">
+	      			<hr/><h1>THE MUSEUM</h1>
+	      				<h2>What is JavaScript?</h2>
+	      					<p>A web document is typically built by a triad of components:</p>
+	      					<ul>
+	      							<li><em>content</em></li>
+	      							<li><em>presentation</em>,</li>
+	      							<li>and <em>behaviour</em>.</li>
+	  						</ul>
+
+	  						<p>JavaScript, often abbreviated as <strong>JS</strong>, is a high-level, interpreted run-time language that serves as the programming language of markup text and the Web. All modern Web browsers support JavaScript, even without plug-ins. Although there are strong similarities between JavaScript and Java, they are different languages and are quite distinct in design. JavaScript serves in supporting the behaviourial part of a website. More implementations will be discussed about JavaScript once we reach <a href="#factory-page">the factory</a>.</p>
+
+	  					<h2>Brief history of JavaScript</h2>
+	  						<div class="photo-frame"><img src="pictures/brendan-eich.jpg" alt="Brendan Eich"><br/>Brendan Eich</div><p>By 1994, Netscape Communications was already a big fish when it comes to the Web and it makes a lot of sense that they realised the Web needed to be more dynamic. The founder, Marc Andreessen, was keen to have a language that would be suitable for both Web designers and also programmers, and could be written directly to the webpage markup. Thus, Netscape signed Brendan Eich, who originally intended to put another programming language, <em>Scheme</em>, into the browser. In collaboration with Sun Microsystems, Java was included in Netscape Navigator and so, they decided that the new language should complement and resemble Java.</p>
+
+	  						<p>In 10 days, Eich finished his prototype and it was first shipped with Netscape Navigator 2.0 beta releases in September 1995. JavaScript underwent name changes from originally Mocha to LiveScript, until it was renamed as JavaScript. Some argued that this was part of a marketing strategy considering Java was a &quot;rising star&quot; at that time. Eich then continued to supervise the implementation of JavaScript in Netscape Navigator.</p>
+
+	  						<p>Soon following the release of browser-based JavaScript, NetScape published implementation of JS for server-side scripting. Ever since, JavaScript has continued to evolve as one of the most popular programming languages on the Web. Nowadays, there are numerous open source libraries built for implementation of JavaScript.</p>
+
+	  					<h2>Timeline of JavaScript version</h2>
+	  						<table class="table">
+    							<thead>
+      								<tr>
+        								<th>Release date</th>
+        								<th>Version</th>
+        								<th>Equivalent to</th>
+      								</tr>
+    							</thead>
+    							<tbody>
+      								<tr>
+        								<td>March 1996</td>
+        								<td>1.0</td>
+        								<td></td>
+								    </tr>
+								    <tr>
+        								<td>August 1996</td>
+        								<td>1.1</td>
+        								<td></td>
+								    </tr>
+								    <tr>
+        								<td>June 1997</td>
+        								<td>1.2</td>
+        								<td></td>
+								    </tr>
+								    <tr>
+        								<td>October 1998</td>
+        								<td>1.3</td>
+        								<td>ECMA-262 1st + 2nd edition</td>
+								    </tr>
+								    <tr>
+        								<td></td>
+        								<td>1.4</td>
+        								<td></td>
+								    </tr>
+								    <tr>
+        								<td>November 2000</td>
+        								<td>1.5</td>
+        								<td>ECMA-262 3rd edition</td>
+								    </tr>
+								    <tr>
+        								<td>November 2005</td>
+        								<td>1.6</td>
+        								<td>1.5 + array extras + array and string generics + E4X</td>
+								    </tr>
+								    <tr>
+        								<td>October 2006</td>
+        								<td>1.7</td>
+        								<td>1.6 + Pythonic generators + iterators + let</td>
+								    </tr>
+								    <tr>
+        								<td>June 2008</td>
+        								<td>1.8</td>
+        								<td>1.7 + generator expressions + expression closures</td>
+								    </tr>
+								    <tr>
+        								<td></td>
+        								<td>1.8.1</td>
+        								<td>1.8 + native JSON support + minor updates</td>
+								    </tr>
+								    <tr>
+        								<td>June 2009</td>
+        								<td>1.8.2</td>
+        								<td>1.8.1 + minor updates</td>
+								    </tr>
+								    <tr>
+        								<td>July 2010</td>
+        								<td>1.8.5</td>
+        								<td>1.8.2 + new features for ECMA-262 5th edition compliance</td>
+								    </tr>
+								</tbody>
+							</table>
+	      		</div>
+
+	      		<div id="factory-page">
+	      			<hr/><h1>THE FACTORY</h1>
+	      				<h2>The separation of concerns</h2>
+	      					<p>As stated at <a href="#museum-page">the museum</a>, JavaScript is used as a programming language for markup text document on the Web. In full below is how a typical web document is built:</p>
+
+	      					<ul>
+	      						<li>Content structure and semantics: <a href="html-page.html">HTML</a></li>
+	      						<li>Presentation style and layout: <a href="css-page.html">CSS</a></li>
+	      						<li>Behaviour scripting and interactivity:
+	      							<ul>
+	      								<li><strong>JavaScript</strong> (client-side)</li>
+	      								<li>PHP, Perl, Java, Ruby, etc. (server-side)</li>
+	      							</ul>
+	      						</li>
+	      					</ul>
+
+	      					<p>Why is the separation made in the first place? Firstly, this is a good practice to ease developers in maintaining their website, given they can classify easily where an issue relies: content, presentation, or behaviour. Also, this consistency is a huge benefit for a team of developers or when someone has to look into someone else's script. This obviously improves accessibility and control. In theory, separation of content tells us a lot about a page as well. We would be able to differ between a heading and large font, strong emphasis and bold, or a new paragraph and a line break. Generally, the separation of concerns works as how lines of code are broken down into methods that perform different functions. It gives so much ease when elements of a web document are separated into building blocks.</p>
+
+	      				<h2>Client-side scripting: A simple view</h2>
+	      					<p>Programmes, which are delivered alongside web content, are part of a page and linked to a page. They are compiled and executed on client-side. In this way, an interaction is made via the web page Document Object Model (DOM) to read, write, and manipulate:</p>
+	      						<ul>
+	      							<li>HTML elemnts and attributes</li>
+	      							<li>CSS rules</li>
+	      							<li>Client features and capabilities</li>	
+	      						</ul>
+	      					<p>This also allows rich interaction and dynamic functionality of a website.</p>
+
+	      					<p>The browser has a JavaScript interpreter and acts as the script execution environment too. JavaScript itself is embedded in XHTML, i.e. the code to run arrives with the web page. It is also an imperative language with C-style syntax, dynamic typing and runtime evaluation. Aside from sharing the same name, this is the other only connection between Java and JavaScript.</p>
+
+	      				<h2>Uses of JavaScript</h2>
+	      					<ul>
+	      						<li>Interaction with user behaviour
+	      							<ul>
+	      								<li>Mouse movement, key presses, etc.</li>
+	      							</ul>
+	      						</li>
+	      						<li>Interaction with browser environment
+	      							<ul>
+	      								<li>Browser driven events</li>
+	      								<li>Browser-type driven behaviour</li>
+	      							</ul>
+	      						</li>
+	      						<li>Interaction could be:
+	      							<ul>
+	      								<li>Validation form data</li>
+	      								<li>Creating and controlling browser windows</li>
+	      								<li>Dynamic style/presentation effects</li>
+	      								<li>Dynamic content creation/inclusion</li>
+	      								<li>Asynchronous data acquisition</li>
+	      							</ul>
+	      						</li>
+	      					</ul>
+
+	      				<h2>Adding to web pages</h2>
+	      					<p>Script can be added internally:</p>
+	      					<ul>
+	      						<li>Inline using <em>&lt;script&gt;</em> tags
+	      							<ul>
+	      								<li>The content of a script element is parsed and executed by the browser's JavaScript interpreter/engine<br/><div class="pic-container"><img src="pictures/javascript-inline.png" alt="JavaScript inline example"/></div></li>
+	      								<li>The <em>type</em> attribute is required</li>
+	      							</ul>
+	      						</li>
+	      						<li>Provides script content to be run in the current document only
+	      							<ul>
+	      								<li>Similar level of separation to internal <em>&lt;style&gt;</em> blocks</li>
+	      							</ul>
+	      						</li>
+	      					</ul>
+
+	      					<p>Script can also be added externally:</p>
+	      					<ul>
+	      						<li>Using <em>src</em> attribute<br/><div class="pic-container"><img src="pictures/javascript-external.png" alt="JavaScript external example"/></div></li>
+	      						<li>Code between <em>&lt;script&gt;</em> tags will be ignored
+	      							<ul>
+	      								<li>No support for hybrid external/internal script blocks</li>
+	      								<li>Cannot self-close <em>&lt;script&gt;</em> to <em>&lt;/script&gt;</em></li>
+	      							</ul>
+	      						</li>
+	      						<li>Code can be reused across pages
+	      							<ul>
+	      								<li>Clean separation form content</li>
+	      								<li>Common functions can be shared</li>
+	      								<li>Shared code can be cached</li>
+	      							</ul>
+	      						</li>
+	      					</ul>
+
+	      					<p>It is better to put as much scripts as possible in the header of a page, while body will contain direct output plus direct input.</p>
+
+	      				<h2>Programming syntax</h2>
+	      					<p>JavaScript uses common constructs like in Java or similar programming languages. There are variables, loops, arrays, conditionals, etc. There is no need to pre compile the script as it can be interpreted. JavaScript is also loosely typed, there is no need to declare data types before use, unlike in Java. For example a String can be initialised with: <em>myData = &quot;Hello&quot;;</em> while a number can be initialised only with: <em>myData = 26;</em></p>
+
+	      					<p>However, it is a good practice to always initialise variables using <em>var</em> key word, for example:</p><div class="pic-container"><img src="pictures/js-example.png" alt="JavaScript initialisation"/></div>
+
+	      					<p>There are also full range of operators, including:</p>
+	      						<ul>
+	      							<li>Data operators</li>
+	      							<li>Logical operators</li>
+	      							<li>Comparison</li>
+	      						</ul>
+
+	      					<p>Some constructs that are also available in JavaScript are:</p>
+	      						<ul>
+	      							<li>Arrays: to store related data, starign from zero index
+	      								<ul>
+	      									<li>Create and populate<br/><div class="pic-container"><img src="pictures/array1.png" alt="Create and populate"/></div></li>
+	      									<li>Manipulate and access<br/><div class="pic-container"><img src="pictures/array2.png" alt="Manipulate and access"/></div></li>
+	      								</ul>
+	      							</li>
+	      							<li>Loops: repeating a block of code
+	      								<ul>
+	      									<li>Fixed number of repetitions<br/><div class="pic-container"><img src="pictures/for-loop.png" alt="For loop"/></div></li>
+	      									<li>While a condition exists<br/><div class="pic-container"><img src="pictures/do-while.png" alt="Do-while"/></div><div class="pic-container"><img src="pictures/while-loop.png" alt="While loop"/></div></li>
+	      								</ul>
+	      							</li>
+	      							<li>Conditional statements:
+	      								<ul>
+	      									<li>If...else<br/><div class="pic-container"><img src="pictures/if-else.png" alt="If...else"/></div></li>
+	      									<li>Switch...case<br/><div class="pic-container"><img src="pictures/switch-case.png" alt="Switch...case"/></div></li>
+	      								</ul>
+	      							</li>
+	      							<li>Functions: group statements for logical execution and flow control
+	      								<ul>
+	      									<li>Define<br/><div class="pic-container"><img src="pictures/define.png" alt="Define"/></div></li>
+	      									<li>Call<br/><div class="pic-container"><img src="pictures/call.png" alt="Call"/></div></li>
+	      								</ul>
+	      							</li>
+	      							<li>Comments:
+	      								<ul>
+	      									<li>Single lines: using //</li>
+	      									<li>Multi-line: using /* for opening and close with */</li>
+	      								</ul>
+	      							</li>
+	      						</ul>
+
+	      				<h2>References</h2>
+	      					<ul>
+	      						<li><a href="http://maqentaer.com/devopera-static-backup/http/dev.opera.com/articles/view/the-seven-rules-of-unobtrusive-javascrip/index.html">Seven Rules of Unobrtusive JavaScript</a></li>
+	      						<li><a href="http://docs.jquery.com/Main_Page">jQuery API Documentation</a></li>
+	      						<li><a href="http://docs.jquery.com/Tutorials">jQuery Learning Center</a></li>
+	      					</ul>
+	      		</div>
+	      	</div>
+		</body>
+	</html>
