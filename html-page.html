@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>HTML | WebSiteSeeing Tour</title>
+			<meta charset="utf-8">
+
+			<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.css">
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<script type="text/javascript" src="js/bootstrap.js"></script>
+			<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+			<script type="text/javascript" src="js/additional.js"></script>
+		</head>
+	
+		<body id="other-pages" class="parallax">
+
+			<!--Navigation bar-->
+			<nav class="navbar navbar-fixed-top">
+	      		<div class="container">
+	      			<a href="homepage.html" class="btn btn-lg activea">Home</a>
+	        		<a href="html-page.html" class="btn btn-lg navbar-menu-active" role="button">HTML</a>
+	        		<a href="css-page.html" class="btn btn-lg activea" role="button">CSS</a>
+	        		<a href="js-page.html" class="btn btn-lg activea" role="button">JavaScript</a>
+	        		<a href="quiz-page.html" class="btn btn-lg activea" role="button">Quiz</a>
+	      		</div>
+	    	</nav>
+
+	    	<!--Main page content-->
+	    	<div id="main-page-content">
+		    	<img src="pictures/html-bus.png" alt="HTML tour">
+		    	<h1>HTML tour</h1>
+		    	<p>Thank you for choosing <strong>HTML</strong> tour! There are 3 main destinations for this tour.<br/>You are the boss, so pick which every you like first!</p>
+
+		    	<!--Boxes representing places to visit-->
+		    	<div class="row">
+	        		<div class="col-md-4 columnborder">
+	        			<div id="museum" class="places panel columnborder">
+		         			<h2>&raquo; THE MUSEUM</h2>
+		          			<p>A RECOMMENDED START: Learn about a brief history and evolution of HTML from time to time.</p>
+		          			<p><a class="btn btn-default" href="#museum-page" role="button">Take me there! &raquo;</a></p>
+	        			</div>
+	        		</div>
+	        		<div class="col-md-4 columnborder">
+	        			<div id="factory" class="places panel columnborder">
+		         			<h2>&raquo; THE FACTORY</h2>
+		          			<p>Here we will have a look on how HTML is used in website development and other useful code samples and resources.</p>
+		          			<p><a class="btn btn-default" href="#factory-page" role="button">Take me there! &raquo;</a></p>
+		         		</div>
+	       			</div>
+	       			<div class="col-md-4 columnborder">
+	        			<div id="colosseum" class="places panel columnborder">
+		         			<h2>&raquo; THE COLOSSEUM</h2>
+		          			<p>If you feel you have understood enough and you are up for challenges, take a short quiz to test yourself.</p>
+		          			<p><a class="btn btn-default" href="quiz-page.html" role="button">Take me there! &raquo;</a></p>
+		         		</div>
+	       			</div>
+	      		</div>
+
+	      		<div id="museum-page">
+	      			<hr/><h1>THE MUSEUM</h1>
+	      				<h2>What is HTML?</h2>
+	      					<p>A web document is typically built by a triad of components:</p>
+	      					<ul>
+	      							<li><em>content</em></li>
+	      							<li><em>presentation</em>,</li>
+	      							<li>and <em>behaviour</em>.</li>
+	  						</ul>
+
+	  						<p>HTML stands for <strong>Hypertext Markup Language</strong> and it is widely known as the standard markup language for creating web pages. It is responsible for content structure and semantics of a web page. This means HTML can be used to hold information that will be displayed in a page with the use of meaningful structures of a text. This may include section headings, paragraphs, etc. We will see more uses of HTML in <a href="#factory-page">the factory</a>.</p>
+
+	  					<h2>Brief history of HTML</h2>
+	  					<div class="photo-frame"><img src="pictures/berners-lee.jpg" alt="Tim Berners-Lee"/><br/>Tim Berners-Lee</div>
+	  						<p>HTML was created by the World Wide Web's very own founder, Tim Berners-Lee, an English computer scientist. It all started when Berners-Lee was still working as an independent contractor at CERN (The European Organisation for Nuclear Research). In 1980, he proposed an idea of a computer software-alike that would facilitate researchers to be able to share and update information and their projects. Mostly this was done by email and file exchange, but Berners-Lee was not amused by the conditions. Within months, he already finished his prototype, called ENQUIRE, which would turn out to be the predecessor to the World Wide Web. ENQUIRE </p>
+
+	  						<p>With all the progress made with the Internet and the World Wide Web, 9 years later, Berners-Lee ignited the idea of an Internet-based hypertext system. He was quoted saying:</p><blockquote cite="https://en.wikipedia.org/wiki/Tim_Berners-Lee">&quot;I just had to take the hypertext idea and connect it to the Transmission Control Protocol and domain name system ideas and—ta-da!—the World Wide Web ... Creating the web was really an act of desperation, because the situation without it was very difficult when I was working at CERN later. Most of the technology involved in the web, like the hypertext, like the Internet, multifont text objects, had all been designed already. I just had to put them together. It was a step of generalising, going to a higher level of abstraction, thinking about all the documentation systems out there as being possibly part of a larger imaginary documentation system.&quot;</blockquote>
+
+	  						<p>Berners-Lee named it HTML and went on to finish writing his browser, followed by a server software. In late 1990, he and Robert Cailliau, a CERN data systems engineer-then, worked together despite CERN did not formally acclaim the project. To start with, Berners-Lee tried to list some examples in which hypertext would be extensively used. Came 1991, he published a simple design of HTML which was heavily influenced by SGMLguid (Standard Generalised Markup Language), which was used at CERN. The design laid out a total of 18 elements building the language.</p>
+	  						
+
+	  					<h2>Timeline of HTML versions</h2>
+	  						<table class="table">
+    							<thead>
+      								<tr>
+        								<th>Year</th>
+        								<th>Progress</th>
+      								</tr>
+    							</thead>
+    							<tbody>
+      								<tr>
+        								<td>1991</td>
+        								<td><strong>HTML Tags</strong> was first publicised</td>
+								    </tr>
+								    <tr>
+								    	<td></td>
+								    	<td>Debut of <strong>HTML 1.0</strong> with its ability to link documents using the tag &quot;href&quot;</td>
+							    	</tr>
+								    <tr>
+								    	<td>1994</td>
+								    	<td><strong>HTML 2.0</strong> was released and became an official set of standards for HTML</td>
+								    </tr>
+								    <tr>
+								    	<td>1996</td>
+								    	<td>For the first time, HTML supports tables</td>
+								    </tr>
+								    <tr>
+								    	<td>1997</td>
+								    	<td>After many arguments, <strong>HTML 3.2</strong> was published with code name <em>WILBUR</em></td>
+								    </tr>
+								    <tr>
+								    	<td>1998</td>
+								    	<td>Now including <a href="css-page.html">Cascading Style Sheets (CSS)</a>, <strong>HTML 4.0</strong> was approved</td>
+								    </tr>
+								    <tr>
+								    	<td>2000</td>
+								    	<td>XML and HTML merged to become <strong>XHTML</strong>, and with XML as the standard, more strict writing practice was introduced</td>
+								    </tr>
+								    <tr>
+								    	<td>2002</td>
+								    	<td><em>Tableless design</em> grew as people started to think tabled design practices are too long-winded; CSS became more popular</td>
+								    </tr>
+								    <tr>
+								    	<td>2008</td>
+								    	<td>A group of powerhouses, including WHAT, Apple, and Mozilla introduced the draft for <strong>HTML5</strong></td>
+								    </tr>
+								    <tr>
+								    	<td>2009</td>
+								    	<td>XHTML development team turned to HTML5 as well</td>
+								    </tr>
+								</tbody>
+							</table>
+	      		</div>
+
+	      		<div id="factory-page">
+	      			<hr/><h1>THE FACTORY</h1>
+	      				<h2>The separation of concerns</h2>
+	      					<p>As stated at <a href="#museum-page">the museum</a>, HTML is responsible for the content structure and semantics of a web document. In full below is how a typical web document is built:</p>
+
+	      					<ul>
+	      						<li>Content structure and semantics: <strong>HTML</strong></li>
+	      						<li>Presentation style and layout: <a href="css-page.html">CSS</a></li>
+	      						<li>Behaviour scripting and interactivity:
+	      							<ul>
+	      								<li><a href="js-page.html">JavaScript</a> (client-side)</li>
+	      								<li>PHP, Perl, Java, Ruby, etc. (server-side)</li>
+	      							</ul>
+	      						</li>
+	      					</ul>
+
+	      					<p>Why is the separation made in the first place? Firstly, this is a good practice to ease developers in maintaining their website, given they can classify easily where an issue relies: content, presentation, or behaviour. Also, this consistency is a huge benefit for a team of developers or when someone has to look into someone else's script. This obviously improves accessibility and control. In theory, separation of content tells us a lot about a page as well. We would be able to differ between a heading and large font, strong emphasis and bold, or a new paragraph and a line break. Generally, the separation of concerns works as how lines of code are broken down into methods that perform different functions. It gives so much ease when elements of a web document are separated into building blocks.</p>
+
+	      				<h2>HTML: A simple view</h2>
+		      				<ul>
+		      					<li>Content
+		      						<ul>
+		      							<li>Text (and images)</li>
+		      						</ul>
+		      					</li>
+		      					<li>Elements (Tags)
+		      						<ul>
+		      							<li>Core structure for the content</li>
+		      							<li>Focus on semantics and organisation</li>
+		      							<li>Default rendering conventions allow for basic (functional) display</li>
+		      						</ul>
+		      					</li>
+		      					<li>Attributes
+		      						<ul>
+		      							<li>Additional information/semantics about elements</li>
+		      						</ul>
+		      					</li>
+		      				</ul>
+
+		      			<h2>Basic structure</h2>
+		      				<p>Working with HTML requires an attention to a good structure. It is so important as correctly structured HTML will allow for consistent rendering in browsers. It also makes editing and maintaining of documents a lot easier. As of W3C, a basic HTML document should contain:</p>
+		      				<ol>
+		      					<li>A line containing HTML version information
+		      					<p>This includes a Document Type Definition (DTD) declaration, which declares the version of HTML used. Although browsers do not usually validate pages against DTD, this allows browsers to process document correctly. An example declaration for HTML 4.01 document is shown below.</p><div class="pic-container"><img src="pictures/dtd-example.png" alt="DTD example" /></div></li>
+		      					<li>A declarative header section (delimited by the <em>&lt;head&gt;</em> element)
+		      					<p>This area provides information about the document and is used to help processing it. It must include a <em>&lt;title&gt;</em> tag and character set info. Some optional declarations and references (e.g. scripts via <em>&lt;script&gt;</em>) can also be included. An example header section is shown below.</p>Script:<br/><div class="pic-container"><img src="pictures/header-example.png" alt="Header example"/></div><br/>Result:<br/><div class="pic-container"><img src="pictures/header-result.png" alt="Header result"/></div></li>
+		      					<li>A body, which contains the document's actual content (implemented by the <em>&lt;body&gt;</em> element)
+		      					<p>This area is processed into the content users will actually see. The final appearance may be influenced by additional information from header section, such as the inclusions of scripts and style sheets. An example is shown below.</p>Script:<br/><div class="pic-container"><img src="pictures/body-example.png" alt="Body example"/></div><br/>Result:<br/><div class="pic-container"><img src="pictures/body-result.png" alt="Body result"/></div></li>
+		      				</ol>
+		      			<p>Meanwhile, sections 2 and 3 should be delimited by the <em>&lt;html&gt;</em> tag as shown below.</p><div class="pic-container"><img src="pictures/delimited.png" alt="Sections 2 and 3 delimited by html tag"/></div>
+
+		      			<h2>Tags and attributes</h2>
+		      			<p>Tags, as shown in the screenshots above, are usually wrapped around content in pairs i.e. an opening and an end tags. However, some tags (e.g. <em>&lt;br /&gt;</em>) are not paired. Inline tags (e.g. <em>&lt;em&gt;</em>) can be nested inside block level tags (e.g. <em>&lt;p&gt;</em>).Also, some tags can be nested together, for example: <em>&lt;p&gt;</em> inside a <em>&lt;div&gt;</em>.</p>
+
+		      			<p>Meanwhile, attributes specify the additional properties and/or behaviour for HTML tags as name/value pairs. These attributes have to be declared in the opening tag addressing the following rule: <em>&lt;tag attribute="value"&gt;</em>content<em>&lt;tag&gt;</em>. An example is: <em>&lt;div id="content-block"&gt;</em>content<em>&lt;div&gt;</em>. There are some common attributes that can be applied to any tags inside the body. Typically, they are used as a framework for enhancing the user experience. Here is the list of some common attributes:</p>
+
+		      			<table class="table">
+    							<thead>
+      								<tr>
+        								<th>Attribute</th>
+        								<th>Purpose</th>
+      								</tr>
+    							</thead>
+    							<tbody>
+      								<tr>
+        								<td>class</td>
+        								<td>Associates an element with a CSS class</td>
+								    </tr>
+								    <tr>
+								    	<td>id</td>
+								    	<td>Uniquely identifies element for CSS/scripting</td>
+							    	</tr>
+								    <tr>
+								    	<td>style</td>
+								    	<td>Provides inline CSS style rules for an element</td>
+								    </tr>
+								    <tr>
+								    	<td>title</td>
+								    	<td>Describes an element and its content. Creates tooltips in browsers &amp; used by screen readers</td>
+								    </tr>
+								</tbody>
+							</table>
+
+						<h2>Body tags</h2>
+							<p>There are 3 types of body tags:</p>
+							<ul>
+								<li>Block-level
+									<ul>
+										<li>Define blocks of content</li>
+										<li>Browser will add new lines above and below</li>
+										<li>Default width/height handled automatically</li>
+									</ul>
+								</li>
+								<li>Inline
+									<ul>
+										<li>Semantics and organisation within block</li>
+										<li>Not associated with new lines</li>
+										<li>Must be nested inside a block-level element</li>
+									</ul>
+								</li>
+								<li>Replaced
+									<ul>
+										<li>Browser calculated dimensions and replaces with embedded or drawn objects</li>
+										<li>Nesting as for inline tags</li>
+										<li>Used for specific page elements such as images and form controls</li>
+									</ul>
+								</li>
+							</ul>
+
+						<h2>Reference URLs</h2>
+						<ul>
+							<li><a href="http://www.w3schools.com/">W3Schools Tutorials</a></li>
+							<li><a href="http://www.w3.org/TR/html5/">HTML5 Specification (Draft)</a></li>
+							<li><a href="http://en.wikipedia.org/wiki/HTML5">HTML5 Developments</a></li>
+						</ul>
+	      		</div>
+	      	</div>
+		</body>
+	</html>
